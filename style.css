@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Franklin:wght@100&family=Nunito:wght@300&family=Poppins:wght@300&family=Raleway:wght@300&family=Work+Sans&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:#61DBFB;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 150px;
+    width: 50%;
+    text-shadow: 0 0 50px;
+    color: white;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transform: translate(60%, 0);
+}
+
+.text-1, .text-2 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#subtitle-1 {
+    position: relative;
+    width: 50%;
+    top: 250px;
+    font-size: 35px;
+    text-shadow: 0 0 50px;
+    padding: 1%;
+    left: 5%;
+}
+
+.text-1 p {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 10%;
+    top: 300px;
+    width: 80%;
+    line-height: 50px;
+}
+
+#font-1{
+    position: absolute;
+    text-shadow: 0 0 30px white;
+    left: 10%;
+    top: 120%;
+    width: 60%;
+}
+
+#link {
+    color: white;
+}
+
+#footer-paragraph {
+    background-color: #4da8be;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    transform: translateY(1000%);
+}
